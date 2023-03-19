@@ -14,7 +14,7 @@ function AddUser({ dispatch, setBalance, balance }) {
             <label htmlFor="name">Enter the Name:</label>
             <input
                 onChange={(e) => setName(e.target.value)}
-                id={name}
+                id="name"
                 type="text"
                 value={name}
             />
